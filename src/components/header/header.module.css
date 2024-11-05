@@ -1,0 +1,23 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .navList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navItem {
+    margin-right: 15px;
+  }
+  .navItem button {
+    background: none;
+    border: none;
+    color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navItem button:hover {
+  text-decoration: underline;
+}
