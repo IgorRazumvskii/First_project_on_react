@@ -1,0 +1,27 @@
+.product_list
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header {
+    width: 100%;
+    background-color: #000; /* Чёрный фон */
+    color: #fff; /* Белый текст */
+    display: flex;
+    flex-direction: column; /* Элементы располагаются по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.title 
+{
+    font-size: 2rem; /* Размер заголовка */
+    font-weight: bold;
+    margin: 0; /* Убираем отступы */
+}
+
+
